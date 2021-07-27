@@ -1,0 +1,426 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"POT-Creation-Date: 2021-07-26 13:07-0600\n"
+"PO-Revision-Date: 2021-07-26 13:07-0600\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 3.0\n"
+"X-Poedit-Basepath: ..\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-KeywordsList: __;_e\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: itech-doc.php:119
+msgid "General Settings"
+msgstr ""
+
+#: itech-doc.php:122
+msgid "Logo"
+msgstr ""
+
+#: itech-doc.php:123
+msgid "Version"
+msgstr ""
+
+#: itech-doc.php:124
+msgid "Copyright"
+msgstr ""
+
+#: itech-doc.php:127
+msgid "Style Settings"
+msgstr ""
+
+#: itech-doc.php:130
+msgid "Header Backgound"
+msgstr ""
+
+#: itech-doc.php:131
+msgid "Header Color"
+msgstr ""
+
+#: itech-doc.php:132
+msgid "Version Color"
+msgstr ""
+
+#: itech-doc.php:133
+msgid "Sidebar Backgound Color"
+msgstr ""
+
+#: itech-doc.php:134
+msgid "Menu Color"
+msgstr ""
+
+#: itech-doc.php:135
+msgid "Active Menu Color"
+msgstr ""
+
+#: itech-doc.php:136
+msgid "Active Menu Border Color"
+msgstr ""
+
+#: itech-doc.php:139
+msgid "Sections"
+msgstr ""
+
+#: itech-doc.php:142
+msgid "Main Section"
+msgstr ""
+
+#: itech-doc.php:144 itech-doc.php:148
+msgid "Setion Title"
+msgstr ""
+
+#: itech-doc.php:145 itech-doc.php:149
+msgid "Setion Description"
+msgstr ""
+
+#: itech-doc.php:146
+msgid "Sub Section"
+msgstr ""
+
+#: public/doc/post.php:10 public/doc/post.php:15
+msgid "iTech Docs"
+msgstr ""
+
+#: public/doc/post.php:11
+msgid "iTech Doc"
+msgstr ""
+
+#: public/doc/tax.php:10 public/doc/tax.php:15
+msgid "Categories"
+msgstr ""
+
+#: public/doc/tax.php:11
+msgid "Category"
+msgstr ""
+
+#: public/template/single-doc.php:17
+msgid "Version: "
+msgstr ""
+
+#: public/template/single-doc.php:124
+msgid "Back to Top"
+msgstr ""
+
+#: vendor/htmlburger/carbon-fields/core/Container/Block_Container.php:243
+msgid "The parent must be 'array', 'string' or 'null'."
+msgstr ""
+
+#: vendor/htmlburger/carbon-fields/core/Container/Block_Container.php:272
+msgid "The position of inner blocks must be 'above' or 'below'."
+msgstr ""
+
+#: vendor/htmlburger/carbon-fields/core/Container/Block_Container.php:290
+msgid "The template must be an 'array' or 'null'."
+msgstr ""
+
+#: vendor/htmlburger/carbon-fields/core/Container/Block_Container.php:308
+msgid "The template lock must be 'all', 'insert', 'false' or 'null'."
+msgstr ""
+
+#: vendor/htmlburger/carbon-fields/core/Container/Block_Container.php:326
+msgid "The allowed blocks must be an 'array' or 'null'."
+msgstr ""
+
+#: vendor/htmlburger/carbon-fields/core/Container/Block_Container.php:393
+msgid "'render_callback' is required for the blocks."
+msgstr ""
+
+#: vendor/htmlburger/carbon-fields/core/Container/Block_Container.php:397
+msgid "'render_callback' must be a callable."
+msgstr ""
+
+#: vendor/htmlburger/carbon-fields/core/Container/Container.php:727
+msgid "General"
+msgstr ""
+
+#: vendor/htmlburger/carbon-fields/core/Container/Theme_Options_Container.php:207
+msgid "Settings saved."
+msgstr ""
+
+#: vendor/htmlburger/carbon-fields/core/Field/Footer_Scripts_Field.php:20
+msgid ""
+"If you need to add scripts to your footer (like Google Analytics tracking "
+"code), you should enter them in this box."
+msgstr ""
+
+#: vendor/htmlburger/carbon-fields/core/Field/Gravity_Form_Field.php:47
+msgid "No form"
+msgstr ""
+
+#: vendor/htmlburger/carbon-fields/core/Field/Header_Scripts_Field.php:20
+msgid "If you need to add scripts to your header, you should enter them here."
+msgstr ""
+
+#: vendor/htmlburger/carbon-fields/core/Libraries/Sidebar_Manager/Sidebar_Manager.php:69
+msgid "Please enter a name for the sidebar."
+msgstr ""
+
+#: vendor/htmlburger/carbon-fields/core/Libraries/Sidebar_Manager/Sidebar_Manager.php:72
+msgid "Unknown action attempted."
+msgstr ""
+
+#: vendor/htmlburger/carbon-fields/core/Libraries/Sidebar_Manager/Sidebar_Manager.php:102
+msgid "Sidebar with the same ID is already registered."
+msgstr ""
+
+#: vendor/htmlburger/carbon-fields/core/Libraries/Sidebar_Manager/Sidebar_Manager.php:112
+#: vendor/htmlburger/carbon-fields/core/Libraries/Sidebar_Manager/Sidebar_Manager.php:142
+msgid ""
+"Failed to update option storing your custom sidebars. Please contact support."
+msgstr ""
+
+#: vendor/htmlburger/carbon-fields/core/Libraries/Sidebar_Manager/Sidebar_Manager.php:137
+msgid "Sidebar not found."
+msgstr ""
+
+#: vendor/htmlburger/carbon-fields/core/Libraries/Sidebar_Manager/Sidebar_Manager.php:181
+msgid "Add Sidebar"
+msgstr ""
+
+#: vendor/htmlburger/carbon-fields/core/Libraries/Sidebar_Manager/Sidebar_Manager.php:182
+#: vendor/htmlburger/carbon-fields/packages/core/fields/sidebar/index.js:110
+msgid "Please enter the name of the new sidebar:"
+msgstr ""
+
+#: vendor/htmlburger/carbon-fields/core/Libraries/Sidebar_Manager/Sidebar_Manager.php:183
+msgid "Are you sure you wish to remove this sidebar?"
+msgstr ""
+
+#: vendor/htmlburger/carbon-fields/core/REST_API/Router.php:368
+msgid "No option names provided"
+msgstr ""
+
+#: vendor/htmlburger/carbon-fields/core/REST_API/Router.php:379
+msgid "Theme Options updated."
+msgstr ""
+
+#: vendor/htmlburger/carbon-fields/core/REST_API/Router.php:401
+msgid "Sorry, you are not allowed to read blocks of this post."
+msgstr ""
+
+#: vendor/htmlburger/carbon-fields/core/REST_API/Router.php:411
+msgid "Sorry, you are not allowed to read blocks as this user."
+msgstr ""
+
+#: vendor/htmlburger/carbon-fields/core/REST_API/Router.php:434
+msgid "The name of the block."
+msgstr ""
+
+#: vendor/htmlburger/carbon-fields/core/REST_API/Router.php:439
+msgid "The content of the block."
+msgstr ""
+
+#: vendor/htmlburger/carbon-fields/core/REST_API/Router.php:443
+msgid "ID of the post context."
+msgstr ""
+
+#: vendor/htmlburger/carbon-fields/core/REST_API/Router.php:474
+msgid "Invalid block."
+msgstr ""
+
+#: vendor/htmlburger/carbon-fields/packages/blocks/components/block-edit/index.js:214
+msgid "Show preview"
+msgstr ""
+
+#: vendor/htmlburger/carbon-fields/packages/blocks/components/block-edit/index.js:215
+msgid "Hide preview"
+msgstr ""
+
+#: vendor/htmlburger/carbon-fields/packages/blocks/components/block-edit/index.js:286
+msgid "Fields"
+msgstr ""
+
+#: vendor/htmlburger/carbon-fields/packages/blocks/components/not-supported-field/index.js:14
+#, javascript-format
+msgid "Field of type '%s' is not supported in Gutenberg."
+msgstr ""
+
+#: vendor/htmlburger/carbon-fields/packages/blocks/components/server-side-render/index.js:129
+#, javascript-format
+msgid "Error loading block: %s"
+msgstr ""
+
+#: vendor/htmlburger/carbon-fields/packages/blocks/components/server-side-render/index.js:135
+msgid "No results found."
+msgstr ""
+
+#: vendor/htmlburger/carbon-fields/packages/blocks/fields/datetime/index.js:59
+#: vendor/htmlburger/carbon-fields/packages/core/fields/date/index.js:15
+#: vendor/htmlburger/carbon-fields/packages/metaboxes/fields/datetime/index.js:9
+msgid "Select Date"
+msgstr ""
+
+#: vendor/htmlburger/carbon-fields/packages/blocks/fields/file/index.js:15
+#: vendor/htmlburger/carbon-fields/packages/blocks/fields/file/index.js:17
+#: vendor/htmlburger/carbon-fields/packages/metaboxes/fields/file/index.js:10
+#: vendor/htmlburger/carbon-fields/packages/metaboxes/fields/file/index.js:12
+msgid "Select File"
+msgstr ""
+
+#: vendor/htmlburger/carbon-fields/packages/blocks/fields/file/index.js:16
+#: vendor/htmlburger/carbon-fields/packages/metaboxes/fields/file/index.js:11
+msgid "Use File"
+msgstr ""
+
+#: vendor/htmlburger/carbon-fields/packages/blocks/fields/image/index.js:10
+#: vendor/htmlburger/carbon-fields/packages/blocks/fields/image/index.js:12
+#: vendor/htmlburger/carbon-fields/packages/metaboxes/fields/image/index.js:10
+#: vendor/htmlburger/carbon-fields/packages/metaboxes/fields/image/index.js:12
+msgid "Select Image"
+msgstr ""
+
+#: vendor/htmlburger/carbon-fields/packages/blocks/fields/image/index.js:11
+#: vendor/htmlburger/carbon-fields/packages/metaboxes/fields/image/index.js:11
+msgid "Use Image"
+msgstr ""
+
+#: vendor/htmlburger/carbon-fields/packages/blocks/fields/media-gallery/index.js:15
+#: vendor/htmlburger/carbon-fields/packages/blocks/fields/media-gallery/index.js:17
+#: vendor/htmlburger/carbon-fields/packages/metaboxes/fields/media-gallery/index.js:15
+#: vendor/htmlburger/carbon-fields/packages/metaboxes/fields/media-gallery/index.js:17
+msgid "Select Attachments"
+msgstr ""
+
+#: vendor/htmlburger/carbon-fields/packages/blocks/fields/media-gallery/index.js:16
+#: vendor/htmlburger/carbon-fields/packages/metaboxes/fields/media-gallery/index.js:16
+msgid "Use Attachments"
+msgstr ""
+
+#: vendor/htmlburger/carbon-fields/packages/core/components/no-options/index.js:14
+msgid "No options."
+msgstr ""
+
+#: vendor/htmlburger/carbon-fields/packages/core/components/search-input/index.js:30
+msgid "Search..."
+msgstr ""
+
+#: vendor/htmlburger/carbon-fields/packages/core/fields/association/index.js:168
+#, javascript-format
+msgid "Maximum number of items reached (%s items)"
+msgstr ""
+
+#: vendor/htmlburger/carbon-fields/packages/core/fields/association/index.js:266
+#, javascript-format
+msgid "Showing %1$d of %2$d results"
+msgstr ""
+
+#: vendor/htmlburger/carbon-fields/packages/core/fields/color/index.js:92
+msgid "Select a color"
+msgstr ""
+
+#: vendor/htmlburger/carbon-fields/packages/core/fields/complex/index.js:82
+#, javascript-format
+msgid "Add %s"
+msgstr ""
+
+#: vendor/htmlburger/carbon-fields/packages/core/fields/complex/index.js:146
+#, javascript-format
+msgid "Couldn't create the label of group - %s"
+msgstr ""
+
+#: vendor/htmlburger/carbon-fields/packages/core/fields/complex/index.js:344
+msgid "There are no entries yet."
+msgstr ""
+
+#: vendor/htmlburger/carbon-fields/packages/core/fields/map/index.js:167
+msgid "Geocode was not successful for the following reason: "
+msgstr ""
+
+#: vendor/htmlburger/carbon-fields/packages/core/fields/oembed/index.js:188
+msgid "An error occurred while trying to fetch oembed preview."
+msgstr ""
+
+#: vendor/htmlburger/carbon-fields/packages/core/fields/oembed/index.js:203
+msgid "Not Found"
+msgstr ""
+
+#: vendor/htmlburger/carbon-fields/packages/core/fields/sidebar/index.js:58
+msgid "Please choose"
+msgstr ""
+
+#: vendor/htmlburger/carbon-fields/packages/core/fields/sidebar/index.js:128
+msgid "An error occurred while trying to create the sidebar."
+msgstr ""
+
+#: vendor/htmlburger/carbon-fields/packages/core/fields/time/index.js:16
+msgid "Select Time"
+msgstr ""
+
+#: vendor/htmlburger/carbon-fields/packages/core/hocs/with-conditional-logic/index.js:69
+#, javascript-format
+msgid "An unknown field is used in condition - \"%s\""
+msgstr ""
+
+#: vendor/htmlburger/carbon-fields/packages/core/hocs/with-validation/required.js:20
+msgid "This field is required."
+msgstr ""
+
+#: vendor/htmlburger/carbon-fields/packages/core/registry/index.js:40
+#, javascript-format
+msgid "%1$s type must be a string."
+msgstr ""
+
+#: vendor/htmlburger/carbon-fields/packages/core/registry/index.js:46
+#, javascript-format
+msgid "%1$s %2$s is already registered."
+msgstr ""
+
+#: vendor/htmlburger/carbon-fields/packages/core/registry/index.js:54
+msgid "The \"component\" param must be a function."
+msgstr ""
+
+#: vendor/htmlburger/carbon-fields/packages/core/registry/index.js:79
+#, javascript-format
+msgid "The provided context isn't a valid one. Must be one of - %s ."
+msgstr ""
+
+#: vendor/htmlburger/carbon-fields/packages/core/registry/index.js:89
+#, javascript-format
+msgid "%s %s isn't registered."
+msgstr ""
+
+#: vendor/htmlburger/carbon-fields/packages/core/utils/api-fetch.js:19
+msgid "An error occured."
+msgstr ""
+
+#: vendor/htmlburger/carbon-fields/packages/core/utils/fetch-attachments-data.js:24
+msgid "An error occurred while trying to fetch files data."
+msgstr ""
+
+#: vendor/htmlburger/carbon-fields/packages/metaboxes/containers/index.js:55
+#, javascript-format
+msgid "Could not find DOM element for container \"%1$s\"."
+msgstr ""
+
+#: vendor/htmlburger/carbon-fields/packages/metaboxes/monitors/conditional-display/conditions/base.js:52
+#, javascript-format
+msgid "Unsupported container condition comparison operator used - \"%1$s\"."
+msgstr ""
+
+#: vendor/htmlburger/carbon-fields/packages/metaboxes/monitors/conditional-display/handler/index.js:55
+#, javascript-format
+msgid "Unsupported container condition - \"%1$s\"."
+msgstr ""
+
+#: vendor/htmlburger/carbon-fields/packages/metaboxes/monitors/conditional-display/handler/index.js:73
+#, javascript-format
+msgid "Unsupported container condition relation used - \"%1$s\"."
+msgstr ""
+
+#: vendor/htmlburger/carbon-fields/templates/Container/common/options-page.php:43
+msgid "Actions"
+msgstr ""
+
+#: vendor/htmlburger/carbon-fields/templates/Container/common/options-page.php:52
+msgid "Save Changes"
+msgstr ""
+
+#: vendor/htmlburger/carbon-fields/templates/Container/widget.php:4
+msgid "No options are available for this widget."
+msgstr ""
