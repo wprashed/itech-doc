@@ -14,7 +14,7 @@
                     <div class="col-md-12">
                         <div class="big-title text-center">
                             <h1><?php the_title(); ?></h1>
-                            <p class="lead"><?php _e('Version: ', 'itech-doc')?><?php echo carbon_get_the_post_meta('itech_doc_version'); ?></p>
+                            <p class="lead"><?php _e('Version: ', 'itech-doc')?><?php echo esc_html(carbon_get_the_post_meta('itech_doc_version')); ?></p>
                         </div>
                         <!-- end title -->
                     </div>
@@ -40,13 +40,13 @@
                               $g='a';
                               foreach ($itech_doc_sections as $itech_doc_section):
                             ?>                          
-                            <li><a href="#<?php echo $g++ ?>"><?php echo $itech_doc_section['itech_doc_title']; ?></a>
+                            <li><a href="#<?php echo esc_html($g++); ?>"><?php echo esc_html($itech_doc_section['itech_doc_title']); ?></a>
                                 <ul class="nav">
                                     <?php
                                       $i='b';
                                       foreach ($itech_doc_section['itech_doc_sub_sections'] as $itech_doc_sub_section):
                                     ?>
-                                    <li><a href="#<?php echo $g++ ?><?php echo $i++ ?>"><?php echo $itech_doc_sub_section['itech_doc_sub_title']; ?></a></li>
+                                    <li><a href="#<?php echo esc_html($g++); ?><?php echo esc_html($i++); ?>"><?php echo esc_html($itech_doc_sub_section['itech_doc_sub_title']); ?></a></li>
                                     <?php endforeach ?>
                                 </ul>
                             </li>
@@ -71,11 +71,11 @@
                       foreach ($itech_doc_sections as $itech_doc_section):
                     ?>
 
-                    <section id="<?php echo $g++ ?>" class="section">
+                    <section id="<?php echo esc_html($g++); ?>" class="section">
 
                         <div class="row">
                             <div class="col-md-12 left-align">
-                                <h2 class="dark-text"><?php echo $itech_doc_section['itech_doc_title']; ?><hr></h2>
+                                <h2 class="dark-text"><?php echo esc_html($itech_doc_section['itech_doc_title']); ?><hr></h2>
                             </div>
                             <!-- end col -->
                         </div>
@@ -83,7 +83,7 @@
 
                         <div class="row">
                             <div class="col-md-12">
-                              <?php echo $itech_doc_section['itech_doc_description']; ?>
+                              <?php echo esc_html($itech_doc_section['itech_doc_description']); ?>
                             </div>
                             <!-- end col -->
                         </div>
@@ -94,11 +94,11 @@
                       $i='b';
                       foreach ($itech_doc_section['itech_doc_sub_sections'] as $itech_doc_sub_section):
                     ?>
-                    <section id="<?php echo $g++ ?><?php echo $i++ ?>" class="section">
+                    <section id="<?php echo esc_html($g++); ?><?php echo esc_html($i++); ?>" class="section">
 
                         <div class="row">
                             <div class="col-md-12 left-align">
-                                <h2 class="dark-text"><?php echo $itech_doc_sub_section['itech_doc_sub_title']; ?><hr></h2>
+                                <h2 class="dark-text"><?php echo esc_html($itech_doc_sub_section['itech_doc_sub_title']); ?><hr></h2>
                             </div>
                             <!-- end col -->
                         </div>
@@ -106,7 +106,7 @@
 
                         <div class="row">
                             <div class="col-md-12">
-                              <?php echo $itech_doc_sub_section['itech_doc_sub_description']; ?>
+                              <?php echo esc_html($itech_doc_sub_section['itech_doc_sub_description']); ?>
                             </div>
                             <!-- end col -->
                         </div>
@@ -121,7 +121,7 @@
 
                         <div class="row">
                             <div class="col-md-12 left-align">
-                                <h5><?php echo carbon_get_the_post_meta('copy_right'); ?> <a href="#top"><?php _e('Back to Top', 'itech-doc')?></a></h5>
+                                <h5><?php echo esc_html(carbon_get_the_post_meta('copy_right')); ?> <a href="#top"><?php _e('Back to Top', 'itech-doc')?></a></h5>
                             </div>
                             <!-- end col -->
                         </div>
