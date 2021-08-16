@@ -40,23 +40,12 @@ N.B: If you want more options in this plugin, please [contact with us](https://i
 * PHP version 7.4 or greater
 * MySQL version 5.6 or greater
 * WP Memory limit of 64 MB or greater (128 MB or higher is preferred)
-* You need to install contact form 7
 
 = Installation =
 
 1. Install using the WordPress built-in Plugin installer, or Extract the zip file and drop the contents in the `wp-content/plugins/` directory of your WordPress installation.
 2. Activate the plugin through the 'Plugins' menu in WordPress.
-3. Go to Pages > Add New
-4. Press the 'Edit with Elementor' button.
-5. Now you have the Elements Buddy from the left panel which yu can drag onto the content area.
 
-= Setup =
-
-1. After install the plugin you must need to create one contact form
-2. You must have to keep on field and the field name will be (your-subject)
-3. Then you need to go WooCommerce setting page here you will find one tab "Catalog & Enquiry". Here you will find all the options to configure the plugin.
-
-<strong>Before installing this plugin, you must have to install "WooCommerce & Contact Form 7"</strong>
 == Screenshots ==
 
 1. Setting Page
